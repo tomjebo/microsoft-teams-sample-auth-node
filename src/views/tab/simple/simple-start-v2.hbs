@@ -43,7 +43,7 @@
                     redirect_uri: window.location.origin + "/tab/simple-end",
                     nonce: _guid(),
                     state: state,
-                    //login_hint: context.loginHint,
+                    login_hint: context.loginHint,
                 };
 
                 // Go to the AzureAD authorization endpoint (tenant-specific endpoint, not "common")
