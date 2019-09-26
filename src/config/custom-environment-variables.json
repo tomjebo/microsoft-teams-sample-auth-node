@@ -1,20 +1,20 @@
 {
     "app": {
-        "baseUri": "BASE_URI",
-        "appId": "MICROSOFT_APP_ID",
-        "appPassword": "MICROSOFT_APP_PASSWORD"
+        "baseUri": "https://69df44b0.ngrok.io",
+        "appId": "9fffded4-d9dc-4828-8919-898d2ec431b0",
+        "appPassword": "tp:r0l@rQIaN@kfYVFp91V6YRJFf=l6R"
     },
     "bot": {
-        "appId": "MICROSOFT_APP_ID",
-        "appPassword": "MICROSOFT_APP_PASSWORD"
+        "appId": "9fffded4-d9dc-4828-8919-898d2ec431b0",
+        "appPassword": "tp:r0l@rQIaN@kfYVFp91V6YRJFf=l6R"
     },
     "linkedIn": {
         "clientId": "LINKEDIN_CLIENT_ID",
         "clientSecret": "LINKEDIN_CLIENT_SECRET"
     },
     "azureAD": {
-        "appId": "MICROSOFT_APP_ID",
-        "appPassword": "MICROSOFT_APP_PASSWORD"
+        "appId": "9fffded4-d9dc-4828-8919-898d2ec431b0",
+        "appPassword": "tp:r0l@rQIaN@kfYVFp91V6YRJFf=l6R"
     },
     "google": {
         "clientId": "GOOGLE_CLIENT_ID",
