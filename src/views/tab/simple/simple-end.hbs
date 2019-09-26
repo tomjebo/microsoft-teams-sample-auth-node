@@ -45,7 +45,9 @@
                 if (expectedState !== hashParams["state"]) {
                     // State does not match, report error
                     localStorage.setItem("simple.error", JSON.stringify(hashParams));
-                    microsoftTeams.authentication.notifyFailure("StateDoesNotMatch");
+                    setTimeout(function() {
+                        microsoftTeams.authentication.notifyFailure("StateDoesNotMatch");
+                    },10000);
                 } else {
                     // Success -- return token information to the parent page.
                     // Use localStorage to avoid passing the token via notifySuccess; instead we send the item key.
@@ -56,7 +58,10 @@
                         tokenType: hashParams["token_type"],
                         expiresIn: hashParams["expires_in"]
                     }));
-                    microsoftTeams.authentication.notifySuccess(key);
+
+                    setTimeout(function() {
+                        microsoftTeams.authentication.notifySuccess(key);
+                    },10000);
                 }
             } else {
                 // Unexpected condition: hash does not contain error or access_token parameter

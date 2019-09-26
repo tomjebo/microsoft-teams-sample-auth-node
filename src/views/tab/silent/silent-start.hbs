@@ -51,10 +51,11 @@
                     // - login_hint provides the expected user name
                     extraQueryParameter: "scope=openid+profile&login_hint=" + encodeURIComponent(context.loginHint),
                 };
-    
-                // Navigate to the AzureAD login page        
-                let authContext = new AuthenticationContext(config);
-                authContext.login();
+                setTimeout(function() {
+                    // Navigate to the AzureAD login page        
+                    let authContext = new AuthenticationContext(config);
+                    authContext.login();
+                },10000);
             });
         </script>
     </body>
