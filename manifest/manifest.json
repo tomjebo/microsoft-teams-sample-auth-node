@@ -2,10 +2,10 @@
   "$schema": "https://statics.teams.microsoft.com/sdk/v1.2/manifest/MicrosoftTeams.schema.json",
   "manifestVersion": "1.2",
   "version": "1.0",
-  "id": "00000000-0000-0000-0000-000000000000",
+  "id": "3ad3c1ec-f1bb-4b6c-b167-7649cd69aa0d",
   "packageName": "com.microsoft.teams.samples.auth",
   "developer": {
-    "name": "Your Name Here",
+    "name": "Tom Jebo",
     "websiteUrl": "https://www.example.com",
     "privacyUrl": "https://privacy.microsoft.com/PrivacyStatement",
     "termsOfUseUrl": "https://www.microsoft.com/en-us/servicesagreement/"
@@ -27,7 +27,7 @@
   ],
   "staticTabs": [
     {
-      "contentUrl": "https://<<BASE_URI_DOMAIN>>/tab/simple",
+      "contentUrl": "https://69df44b0.ngrok.io/tab/simple",
       "entityId": "simpleAuth",
       "name": "Simple Auth",
       "scopes": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "contentUrl": "https://<<BASE_URI_DOMAIN>>/tab/silent?loginHint={loginHint}&userObjectId={userObjectId}&tenantId={tid}",
+      "contentUrl": "https://69df44b0.ngrok.io/tab/silent?loginHint={loginHint}&userObjectId={userObjectId}&tenantId={tid}",
       "entityId": "silentAuth",
       "name": "Silent Auth",
       "scopes": [
@@ -45,7 +45,7 @@
   ],
   "bots": [
     {
-      "botId": "<<REGISTERED_BOT_ID>>",
+      "botId": "9fffded4-d9dc-4828-8919-898d2ec431b0",
       "scopes": [
         "personal"
       ]
