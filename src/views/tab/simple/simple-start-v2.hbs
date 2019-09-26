@@ -36,14 +36,14 @@
                 // See https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-protocols-implicit
                 // for documentation on these query parameters
                 let queryParams = {
-                    client_id: "{{appId}}",
+                    client_id: "9fffded4-d9dc-4828-8919-898d2ec431b0",
                     response_type: "id_token token",
                     response_mode: "fragment",
                     scope: "https://graph.microsoft.com/User.Read openid",
                     redirect_uri: window.location.origin + "/tab/simple-end",
                     nonce: _guid(),
                     state: state,
-                    login_hint: context.loginHint,
+                    //login_hint: context.loginHint,
                 };
 
                 // Go to the AzureAD authorization endpoint (tenant-specific endpoint, not "common")

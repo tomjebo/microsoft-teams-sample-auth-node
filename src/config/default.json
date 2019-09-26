@@ -1,7 +1,8 @@
 {
     "app": {
         "baseUri": "https://69df44b0.ngrok.io",
-        "appId": "9fffded4-d9dc-4828-8919-898d2ec431b0"
+        "appId": "9fffded4-d9dc-4828-8919-898d2ec431b0",
+        "appPassword": "tp:r0l@rQIaN@kfYVFp91V6YRJFf=l6R"
     },
     "bot": {
         "appId": "9fffded4-d9dc-4828-8919-898d2ec431b0",
